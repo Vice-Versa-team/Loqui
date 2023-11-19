@@ -2,11 +2,12 @@
 plugins {
     alias(libs.plugins.com.android.application)
     alias(libs.plugins.org.jetbrains.kotlin.android)
+    alias(libs.plugins.io.gitlab.arturbosch.detekt)
 }
 
 android {
     namespace = "team.viceversa.loqui"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "team.viceversa.loqui"
